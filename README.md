@@ -6,3 +6,7 @@
 
 - HTML
 - CSS
+
+<img src="https://raw.githubusercontent.com/gutoguto221/Projects/refs/heads/main/Assets/print-pc.PNG"/>
+
+
