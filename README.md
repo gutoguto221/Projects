@@ -7,7 +7,7 @@
 - HTML
 - CSS
 
-<h3>Versão Mobile</h3>
+<h3>Versão Mobile:</h3>
 
 <img src="https://raw.githubusercontent.com/gutoguto221/Projects/refs/heads/main/Assets/print-cel.PNG"/>
   
