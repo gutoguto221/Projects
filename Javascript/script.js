@@ -14,16 +14,13 @@ console.log(element.innerHTML) // TRÁS TUDO e PERMITE ADICIONAR HTML diretament
 
 
 const input = document.querySelector("#main-input")
-const paragrapho = document.querySelector("paragraph-js")
+const select = document.querySelector("select")
+const button = document.querySelector("main-button")
 
-
-function cliqueiNoBotao(){
-    paragrapho.textContent= input.value
-
-}
-function digiteiNoInput(){
-    console.log(input.value)
-    
+function troqueiValor(event){
+    console.log(event)
 }
 
-
+select.addEventListener("change", function(){
+        //console.log("troquei de valor")
+//})
