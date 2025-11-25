@@ -47,11 +47,11 @@ input {
 }
 
 button {
-  background: #4D9086;
+  background: #012148;
   border-radius: 5px;
   width: 100%;
   height: 48px;
-  color: blue;
+  color: #AFD9E7;
   font-weight: 700;
   font-size: 18px;
   cursor: pointer;
@@ -92,7 +92,8 @@ section {
   font-size: 20px;
 }
 
-.currency-value, .currency-value-to-convert {
+.currency-value,
+.currency-value-to-convert {
   color: #555555;
   font-weight: 700;
   font-size: 20px;

@@ -26,16 +26,16 @@
 
         <label>
             Converter <b>para</b>
-            <select>
+            <select class="currency-select">
                 <option>R$ Real Brasileiro</option>
-                <option>US$ Dólar americano</option>
-                <option>€ Euro</option>
+                <option value="dollar">US$ Dólar americano</option>
+                <option value="euro">€ Euro</option>
             </select>
         </label>
 
         <label>
             Valor
-            <input class="input-currency" type="number" placeholder="Ex: 2050">
+            <input class="input-currency" type="number" placeholder="Ex: 2.050">
         </label>
 
         <button class="convert-button">Converter</button>
@@ -50,8 +50,8 @@
             <img class="arrow-img" src="../assets/downarrow.png" alt="seta-para-baixo">
 
             <div class="currency-box">
-                <img src="../assets/dolar.png" alt="logo-moeda-a-converter">
-                <p class="currency"> Dólar</p>
+                <img class="currency-img" src="../assets/dolar.png" alt="logo-moeda-a-converter">
+                <p class="currency" id="currency-name"> Dólar americano</p>
                 <p class="currency-value">US$ 0,00</p>
             </div>
         </section>
