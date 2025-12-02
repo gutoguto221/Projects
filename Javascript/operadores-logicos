@@ -1,0 +1,13 @@
+const digitarASenha = true
+const digitarOToken = true
+const numeroDaConta = true
+
+if (digitarASenha || digitarOToken || numeroDaConta){
+    console.log("Logado com sucesso")
+}else{
+    console.log("Senha incorreta")
+}
+
+/* && ----> E
+   || ----> OU
+   ! -----> Negação  */
