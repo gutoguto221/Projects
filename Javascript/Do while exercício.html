@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input placeholder="Digite o nome do contato">
+    <p></p>
+    <button onclick="search()">Procurar Contato</button>
+
+    <script>
+        let p = document.querySelector('p');
+        let input = document.querySelector('input');
+
+        const contacts = [
+            { name: 'Guto', number: '(19) 94343-4343' },
+            { name: 'Carlinhos', number: '(12) 95200-2050' },
+            { name: 'Cleidê', number: '(13) 94444-4877' },
+            { name: 'Dalva', number: '(19) 96531-5418' },
+        ];
+
+        function search() {
+            let found = false;
+            let i = 0; // Inicializa um contador
+
+            // Usando while para iterar sobre os contatos
+            while (i < contacts.length) {
+                const contact = contacts[index]; // Obtém o contato atual
+
+                // Verifica se o nome digitado corresponde ao nome do contato
+                if (input.value.toLowerCase() === contact.name.toLowerCase()) {
+                    p.innerHTML = `Contato Encontrado: Nome: ${contact.name} Tel: ${contact.number}`;
+                    found = true;
+                    break; // Interrompe o loop se o contato for encontrado
+                }
+
+                i++; // Incrementa o contador
+            }
+
+            // Se nenhum contato foi encontrado
+            if (!found) {
+                p.innerHTML = "Contato não encontrado!";
+            }
+        }
+    </script>
+</body>
+
+</html>
