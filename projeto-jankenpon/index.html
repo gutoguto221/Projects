@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto JanKenPon</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>JanKenPon</h1>
+
+        <div class="buttons">
+            <button id="rock" onclick="playUser('rock')">&#x1F44A;</button>
+            <button id="paper" onclick="playUser('paper')">&#x1f590;</button>
+            <button id="scissors" onclick="playUser('scissors')">&#x270c;</button>
+
+        </div>
+        <p class="result"></p>
+
+        <p class="user-score">Sua Pontuação é: <span id="user-score">0</span></p>
+        <p class="cpu-score">Pontuação da CPU: <span id="cpu-score">0</span></p>
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
