@@ -5,9 +5,6 @@
 <h1>Tecnologias usadas:</h1>
 
 - HTML
-<<<<<<< HEAD
-- CSS
-=======
 - CSS
 
 <h3>Versão Mobile:</h3>
