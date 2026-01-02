@@ -60,3 +60,16 @@ li {
     font-weight: bold;
     color: #ffffff ;
 }
+
+.logodevburger{
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    }
+
+    .p{
+        text-align: center;
+        font-size: 30px;
+        color: #000000;
+    }
