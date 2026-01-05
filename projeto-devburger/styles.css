@@ -10,7 +10,7 @@
 
 body{
     font-family: 'Oswald', sans-serif;
-    background-color: #a7634c;
+    background-color: #4ca763;
 }
 
 .container-buttons{
@@ -22,7 +22,7 @@ body{
 }
 
 button{
-background-color: #b13a3a ;
+background-color: #8f3ab1 ;
 border: none;
 border-radius: 5px;
 padding: 10px 20px;
@@ -70,6 +70,7 @@ li {
 
     .welcome{
         text-align: center;
+        font-weight: bold;
         font-size: 30px;
         color: #000000;
     }
