@@ -1,0 +1,24 @@
+{
+  "name": "estudo-node",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Estudo do NODE",
+  "homepage": "https://github.com/gutoguto221/Projects#readme",
+  "bugs": {
+    "url": "https://github.com/gutoguto221/Projects/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gutoguto221/Projects.git"
+  },
+  "license": "ISC",
+  "author": "",
+  
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
