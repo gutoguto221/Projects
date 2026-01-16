@@ -1,16 +1,20 @@
-import express from 'express';
+import express from 'express'
 
-const app = express();
-app.use(express.json());
+const app = express()
+app.use(express.json())
 
-app.get('/usuarios/:id', (req, res) => {
-    console.log(req);
+const users = []
 
-    res.send("Rota de usuário");
-});
+app.get('/usuarios', (req, res) => {
+    console.log(req)
+
+    res.status(200).json(users)
+})
 
 app.post('/usuarios', (req, res) => {
-    use.push(req.body);
+  users.push(req.body) 
 
-    res.status(201).json({ message: 'Usuário criado com sucesso!' });
-});
+    res.status(201).json({message: "Usuário criado com sucesso"})
+})
+
+app.listen(3000)
