@@ -14,12 +14,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  
   "bugs": {
     "url": "https://github.com/gutoguto221/Projects/issues"
   },
   "homepage": "https://github.com/gutoguto221/Projects#readme",
   "dependencies": {
+    "@prisma/client": "6.19",
+    "dotenv": "^17.2.3",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "prisma": "6.19"
   }
 }
