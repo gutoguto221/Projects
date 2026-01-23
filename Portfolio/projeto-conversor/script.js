@@ -1,17 +1,20 @@
+
 const convertButton = document.querySelector(".convert-button")
 const currencySelect = document.querySelector(".currency-select")
 
-function convertCurrency() {
+async function convertCurrency() {
     const inputCurrencyValue = document.querySelector(".input-currency").value
     const currencyValueToConvert = document.querySelector(".currency-value-to-convert")
     const currencyValueConverted = document.querySelector(".currency-value")
 
+    const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL").then(response => response.json())
 
-    const dollarToday = 5.2
-    const euroToday = 6.2
+    console.log(data)
 
+    const dollarToday = 5.2;
+    const euroToday = 6.2;
 
-    if (currencySelect.value == "dollar") {
+      if (currencySelect.value == "dollar") {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "USD",
