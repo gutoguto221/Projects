@@ -20,8 +20,10 @@ this.age = age
     }
 }
 
-const newPerson = new Person()
+const newPerson = new Person("Guto", 38);
+const newPerson2 = new Person("Leandra", 39);
+const newPerson3 = new Person("Maria Clara", 10);
 
-newPerson.name = "Leandra"
-newPerson.age = 39
-newPerson.talk()
+newPerson.talk();
+newPerson2.talk();
+newPerson3.talk();
