@@ -9,10 +9,9 @@ async function convertCurrency() {
 
     const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL").then(response => response.json())
 
-    console.log(data)
 
-    const dollarToday = 5.2;
-    const euroToday = 6.2;
+    const dollarToday = data.USDBRL.high;
+    const euroToday = data.EURBRL.high;
 
       if (currencySelect.value == "dollar") {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
